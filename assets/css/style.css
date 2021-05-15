@@ -1,5 +1,17 @@
+@font-face {
+  font-family: 'geomanistregular';
+  src: url('./../fonts/geomanist-black-webfont.eot');
+  src: url('./../fonts/geomanist-black-webfont.eot?#iefix') format('embedded-opentype'),
+       url('./../fonts/geomanist-black-webfont.woff2') format('woff2'),
+       url('./../fonts/geomanist-black-webfont.woff') format('woff'),
+       url('./../fonts/geomanist-black-webfont.ttf') format('truetype'),
+       url('./../fonts/geomanist-black-webfont.svg#geomanistregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+
+}
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
   color: #fff;
   background: #e5e5e5; 
 }
@@ -14,7 +26,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Roboto", sans-serif;
+  font-family: "Fenix", serif;
 }
 .pill {
   margin-top: 20px !important;
@@ -242,12 +254,12 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #191919 !important;
+  color: #262020 !important;
   transition: 0.3s;
   font-size: 15px;
   font-weight: 600;
   padding: 0 3px;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 .nav-menu > ul > li > a:before {
@@ -269,9 +281,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-  color: #cc0055;
+  color: #cc0055 !important;
 }
-
 .nav-menu .drop-down ul {
   display: block;
   position: absolute;
@@ -479,7 +490,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .hero-logo {
-  max-width: 300px;
+  max-width: 350px;
   margin: 0 auto;
   width: 35vh;
 }
@@ -500,8 +511,8 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
-  font-family: "Poppins", sans-serif;
+  color: #191919;
+  font-family: "geomanistregular", "sans-serif";
 }
 
 #hero h1 span {
@@ -516,7 +527,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .btn-get-started {
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   text-transform: uppercase;
   font-weight: 500;
   font-size: 14px;
@@ -534,6 +545,10 @@ h1, h2, h3, h4, h5, h6 {
 #hero .btn-get-started:hover {
   opacity: .9;
 }
+
+.hero-title {
+  font-family: ;
+} 
 
 #hero .btn-watch-video {
   font-size: 16px;
@@ -601,8 +616,16 @@ section {
   overflow: hidden;
 }
 
+section p { 
+  color: #191919;
+}
+
 .section-bg {
   background-color: #191919;
+}
+
+.section-bg p {
+  color: #fff;
 }
 
 .section-title {
@@ -905,7 +928,7 @@ section {
 .counts .count-box p {
   padding: 0;
   margin: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 10px;
 }
 
@@ -1455,7 +1478,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Roboto", sans-serif;
+  font-family: "Raleway", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1759,7 +1782,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Roboto", sans-serif;
+  font-family: "Fenix", serif;
   color: #777777;
 }
 
